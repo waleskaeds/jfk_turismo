@@ -1,52 +1,162 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
 
 body{
     background-color: rgb(253, 253, 254);
+
+}
+
+.logo_header{
+    width: 45px;
+    height: 45px;
 }
 
 header {
-    background-color: #f1d73e;
-}
-.header h4 h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
-h4 h1{
-    padding-left: 20px;
-}
-
-img {
-    width: 700px;
-    height: 400px;
-}
-
-.pacotes {
+    background-color: #1162cf;
+    font-weight: 500;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: start;
+    padding: 15px;
+}
+
+header h2 {
+    padding-left: 15px;
+    color: #fdd941;
+}
+
+.banner {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.img_banner {
+    border-radius: 40px;
+    width: 100%;
+    /* height: 400px; */
+}
+
+.available_packages {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.title_available_packages{
+    padding-left: 10px;
+    width: 35%;
+}
+
+.description_available_packages{
+    padding-top: 10px;
+    font-size: 45px;
+    padding-right: 10px;
+}
+
+.list_packages {
+    padding-top: 15px;
+    display: flex;
+    width: 65%;
+    /* justify-content: space-around; */
     list-style-type: none;
-}
-.img_pacotes{
-    width: 150px;
-    height: 165px;
-    border: 1px solid aliceblue;
-    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.detalhes {
+.package {
     text-align: center;
+    align-items: center;
     align-content: center;
-    width: 150px;
-    height: 40px;
-    background-color: #2b90e2;
-    box-sizing: border-box;
-    border-radius: 5px;
+    justify-content: center;
+    width: 160px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #1162cf;
 }
 
-p {
-    color: aliceblue;
+.img_package{
+    width: 90%;
+    height: 165px;
+    /* border: 1px solid aliceblue; */
+    border-radius: 10px;
+    padding-bottom: 5px;
 }
-.footer{
-    color: #000;
-    padding-left: 20px;
+
+.name_package {
+    padding-bottom: 5px;
+    color: #fdd941;
+}
+
+button {
+    align-content: center;
+    width: 85%;
+    height: 25px;
+    background-color: #fdd941;
+    color: #1162cf;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: medium;
+}
+
+footer {
+    background-color: #1162cf;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Thin.ttf') format(truetype);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-ExtraLight.ttf') format(truetype);
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Light.ttf') format(truetype);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Regular.ttf') format(truetype);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Medium.ttf') format(truetype);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-SemiBold.ttf') format(truetype);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Bold.ttf') format(truetype);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-ExtraBold.ttf') format(truetype);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'League Spartan';
+    src: url('assets/fonts/league_spartan/LeagueSpartan-Black.ttf') format(truetype);
+    font-weight: 900;
 }
