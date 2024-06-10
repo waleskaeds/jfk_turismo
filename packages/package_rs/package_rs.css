@@ -23,7 +23,7 @@ html {
 }
 .package_images {
     width: 50%;
-    height: 50%;
+    height: 70vh;
     margin-left: 30px;
     display: flex;
     justify-content: start;
@@ -35,7 +35,7 @@ html {
 }
 
 .img_package{
-    width: 70%;
+    width: 30vw;
     border-radius: 10px;
     padding-bottom: 5px;
 }
@@ -54,8 +54,8 @@ h3 {
     font-size: 3.5vw;
 }
 
-.stars {
-    font-size: 2vw;
+.star {
+    width: 2vw;
 }
 .details {
     margin-top: 20px;
@@ -82,7 +82,7 @@ h3 {
 
 .btn {
     width: 90%; 
-    height: 20vh; 
+    height: 10vw; 
     background-color: #1162cf; 
     color: #fdd941;
     font-weight: 700;
@@ -93,7 +93,7 @@ h3 {
     
 .buy {
     font-size: 4vw;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 footer {

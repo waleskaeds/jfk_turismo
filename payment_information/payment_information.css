@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    background-color: rgb(253, 253, 254);
+}
+
+html {
+    font-size: 16px;
+}
+
+.package_details {
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+
+.introduction{
+    font-size: 3vw;
+    padding-top: 10px;
+    margin-right: 50px;
+}
+.price {
+    font-size: 5vw;
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.finish {
+    width: 50%;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 40vw; 
+    height: 8vw; 
+    background-color: #1162cf; 
+    color: #fdd941;
+    font-weight: 700;
+    font-size: 3vw;
+    align-content: center;
+    align-items: center;
+}
+    
+.buy {
+    font-size: 4vw;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #1162cf;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
