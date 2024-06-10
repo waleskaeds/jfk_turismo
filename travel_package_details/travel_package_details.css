@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    background-color: rgb(253, 253, 254);
+}
+
+html {
+    font-size: 16px;
+}
+
+.package_details {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.package_images {
+    width: 50%;
+    height: 50%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: start;
+}
+.package_information{
+    width: 50%;
+    height: 50%;
+    margin-right: 30px;
+}
+
+.img_package{
+    width: 70%;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+.mini_img {
+    width: 6vw;
+    height: 6vw;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 3.5vw;
+}
+
+.stars {
+    font-size: 2vw;
+}
+.details {
+    margin-top: 20px;
+    height: 25%;
+   
+}
+
+.price_others_package_information {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    margin-top: 30px;
+}
+.installments_price {
+    width: 25vw;
+    justify-content: center;
+}
+.installments{
+    font-size: 1.8vw;
+}
+.price {
+    font-size: 4.5vw;
+}
+
+.btn {
+    width: 90%; 
+    height: 20vh; 
+    background-color: #1162cf; 
+    color: #fdd941;
+    font-weight: 700;
+    font-size: 3vw;
+    align-content: center;
+    align-items: center;
+    }
+    
+.buy {
+    font-size: 4vw;
+    padding-top: 8px;
+}
+
+footer {
+    background-color: #1162cf;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
