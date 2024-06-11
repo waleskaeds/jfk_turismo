@@ -14,22 +14,18 @@ body{
 html {
     font-size: 16px;
 }
-
 .package_details {
     display: flex;
-    justify-content: start;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 80px;
+    justify-content: space-between;
 }
 
 .introduction{
-    font-size: 3vw;
-    padding-top: 10px;
-    margin-right: 50px;
+    font-size: 4.5vw;
+    /* padding-top: 10px; */
+    margin-right: 20px;
 }
 .price {
-    font-size: 5vw;
+    font-size: 4.5vw;
 }
 
 .container {
@@ -44,7 +40,7 @@ html {
 .btn {
     margin-top: 10px;
     width: 40vw; 
-    height: 8vw; 
+    height: 6.5vw; 
     background-color: #1162cf; 
     color: #fdd941;
     font-weight: 700;
@@ -55,7 +51,17 @@ html {
     
 .buy {
     font-size: 4vw;
-    padding-top: 10px;
+    /* padding-top: 10px; */
+}
+
+.img_payment_format {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
 }
 
 footer {
