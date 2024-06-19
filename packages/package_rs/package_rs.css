@@ -9,6 +9,8 @@
 
 body{
     background-color: rgb(253, 253, 254);
+    display: flex;
+    flex-direction: column;
 }
 
 html {
@@ -16,6 +18,7 @@ html {
 }
 
 .package_details {
+    height: 50vw;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -23,19 +26,20 @@ html {
 }
 .package_images {
     width: 50%;
-    height: 70vh;
+    height: 50vh;
     margin-left: 30px;
     display: flex;
     justify-content: start;
 }
 .package_information{
     width: 50%;
-    height: 50%;
+    height: 50vh;
     margin-right: 30px;
 }
 
 .img_package{
     width: 30vw;
+    height: 30vw;
     border-radius: 10px;
     padding-bottom: 5px;
 }
